@@ -35,6 +35,7 @@ public class LoginServlet extends HttpServlet {
             out.println(key+"&nbsp;&nbsp;"+user.get(key));
         }
         out.println("</body></html>");
+        out.println("1");
     }
 
 }
