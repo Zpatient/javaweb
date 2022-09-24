@@ -10,11 +10,10 @@ import java.util.Set;
 
 @WebServlet(name="LoginServlet",urlPatterns={"/login.do"})
 public class LoginServlet extends HttpServlet {
-
+    Map<String,String> user = null;
     public void doPost(HttpServletRequest request,HttpServletResponse response)
             throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
-        Map<String,String> user = null;
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         String sex = request.getParameter("gender");
