@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
                     "性别"+sex+"<br/>"+
                     "职业"+password+"<br/>"
         );
-        out.println("已注册信息<br/>");
+        //out.println("已注册信息<br/>");
         out.println("用户名&nbsp;&nbsp;密码&nbsp;&nbsp;性别&nbsp;&nbsp;职业<br/>");
         Set<String> userkey = user.keySet();
         for(String key : userkey){
