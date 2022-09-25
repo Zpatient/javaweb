@@ -36,5 +36,6 @@ public class LoginServlet extends HttpServlet {
         }
         out.println("</body></html>");
         out.println("3");
+        pull
     }
 }
