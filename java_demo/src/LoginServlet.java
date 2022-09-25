@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
         out.println("用户名"+username+"<br/>"+
                     "密码"+password+"<br/>"+
                     "性别"+sex+"<br/>"+
-                    "职业"+password+"<br/>"
+                    "职业"+password+" "
         );
         out.println("已注册信息<br/>");
         out.println("用户名&nbsp;&nbsp;密码&nbsp;&nbsp;性别&nbsp;&nbsp;职业<br/>");
@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
             out.println(key+"&nbsp;&nbsp;"+user.get(key));
         }
         out.println("</body></html>");
-        out.println("2");
+        out.println("3");
     }
 
 }
