@@ -33,6 +33,7 @@ public class LoginServlet extends HttpServlet {
         Set<String> userkey = user.keySet();
         for(String key : userkey){
             out.println(key+"&nbsp;&nbsp;"+user.get(key));
+            out.println(key+"&nbsp;&nbsp;"+user.get(key));
         }
     }
 }
